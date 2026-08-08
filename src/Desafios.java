@@ -37,5 +37,6 @@ public class Desafios {
         double desconto = 0.10;
         double precoDesc = (precoO-(precoO*desconto));
         System.out.println(String.format("6.Oferta, comprando qualquer camisa de time e o pagamento via pix terá dez porcento de desconto - de R$%.2f por R$%.2f.%n", precoO, precoDesc));
+    // subindo para git
     }
 }

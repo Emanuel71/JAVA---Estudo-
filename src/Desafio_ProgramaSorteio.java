@@ -23,7 +23,6 @@ public class Desafio_ProgramaSorteio {
                 System.out.println("Não foi dessa vez - Tente numero maior");
         }   else if (i == 5){
                 System.out.println("Suas tentativas acabou, tente no proxómo bingo");
-
             }
 
     }

@@ -1,4 +1,4 @@
-public class Desafios {
+public class DesafiosPrimeiros {
     public static void main(){
         // Desaf1.1 - Media de duas notas
         double media1 = 8.0;

@@ -63,4 +63,29 @@ public class DesafiosSegundo {
         }
 
     }
+
+    static void exercicios5() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Digite um numero:");
+        int num = sc.nextInt();
+        int result = num % 2;
+        if (result == 0) {
+            System.out.println("Numero é par: " + num);
+        } else if (result == 1) {
+            System.out.println("Numero é impar: " + num);
+        }
+
+    }
+
+    // 3x2x1 = 6
+    static void exercicios6() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Digite um numero: ");
+        int num = sc.nextInt();
+        int fat = 1;
+        for (int i = 1; i <= num; i++) {
+            fat *= i;
+        }
+        System.out.println(String.format("Resultado dessa de fatoral !%d é de: %d", num, fat));
+    }
 }
